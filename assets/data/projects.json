@@ -1,0 +1,242 @@
+[
+  {
+    "id": "amazon-appstore-automation",
+    "title": "Amazon Appstore Automation Framework",
+    "description": "Comprehensive end-to-end automation framework for testing Amazon Appstore applications across multiple platforms including Android, Fire TV, and web interfaces. Built with scalability and maintainability in mind.",
+    "longDescription": "This project involved designing and implementing a robust automation framework that supports testing of Amazon Appstore applications across various platforms. The framework includes parallel execution capabilities, detailed reporting, and integration with CI/CD pipelines. Key achievements include 80% reduction in manual testing effort and 95% test coverage across critical user journeys.",
+    "technologies": ["Python", "Selenium", "Pytest", "Jenkins", "Docker", "AWS", "Allure"],
+    "category": "Web Testing",
+    "featured": true,
+    "status": "Active",
+    "startDate": "2024-04-01",
+    "endDate": null,
+    "achievements": [
+      "Reduced manual testing effort by 80%",
+      "Achieved 95% test coverage for critical user journeys",
+      "Implemented parallel execution reducing test suite runtime by 60%",
+      "Integrated with CI/CD pipeline for continuous testing"
+    ],
+    "challenges": [
+      "Cross-platform compatibility testing",
+      "Dynamic content handling",
+      "Performance optimization for large test suites"
+    ],
+    "learnings": [
+      "Advanced Selenium WebDriver techniques",
+      "Test framework architecture design",
+      "CI/CD integration best practices"
+    ],
+    "images": [
+      "assets/images/projects/appstore-automation-1.jpg",
+      "assets/images/projects/appstore-automation-2.jpg"
+    ],
+    "demoUrl": null,
+    "githubUrl": null,
+    "metrics": {
+      "testCases": 500,
+      "executionTime": "45 minutes",
+      "coverage": "95%",
+      "platforms": 3
+    }
+  },
+  {
+    "id": "fire-tv-performance-testing",
+    "title": "Fire TV Performance Testing Suite",
+    "description": "Advanced performance testing framework for Fire TV applications focusing on Time To First Frame (TTFF), Time To First Display (TTFD), and memory optimization across different device configurations.",
+    "longDescription": "Developed a comprehensive performance testing suite specifically designed for Fire TV applications. The framework measures critical performance metrics including TTFF, TTFD, memory usage, and CPU utilization. Implemented automated performance regression detection and reporting mechanisms that integrate with development workflows.",
+    "technologies": ["Java", "Appium", "Maestro", "ADB", "Systrace", "Firebase", "Performance Testing"],
+    "category": "Performance Testing",
+    "featured": true,
+    "status": "Completed",
+    "startDate": "2023-08-01",
+    "endDate": "2024-03-31",
+    "achievements": [
+      "Improved app launch time by 40% through performance insights",
+      "Automated performance regression detection",
+      "Created comprehensive performance benchmarking suite",
+      "Reduced memory leaks by 70% through systematic testing"
+    ],
+    "challenges": [
+      "Device-specific performance variations",
+      "Real-time performance monitoring",
+      "Memory profiling accuracy"
+    ],
+    "learnings": [
+      "Advanced performance testing methodologies",
+      "Fire TV platform optimization techniques",
+      "Memory profiling and analysis"
+    ],
+    "images": [
+      "assets/images/projects/firetv-performance-1.jpg",
+      "assets/images/projects/firetv-performance-2.jpg"
+    ],
+    "demoUrl": null,
+    "githubUrl": null,
+    "metrics": {
+      "performanceImprovement": "40%",
+      "memoryLeakReduction": "70%",
+      "devicesSupported": 15,
+      "metricsTracked": 8
+    }
+  },
+  {
+    "id": "sdk-automation-framework",
+    "title": "SDK Automation & Validation Framework",
+    "description": "Automated testing framework for SDK validation and compatibility testing across multiple Android devices and OS versions. Ensures SDK reliability and performance across diverse hardware configurations.",
+    "longDescription": "Built a sophisticated SDK testing framework that validates functionality, performance, and compatibility across a wide range of Android devices and OS versions. The framework includes automated test generation, device farm integration, and comprehensive reporting capabilities. Successfully reduced SDK validation time from weeks to days.",
+    "technologies": ["Kotlin", "Android Studio", "Espresso", "API Testing", "CI/CD", "Device Farm"],
+    "category": "SDK Testing",
+    "featured": true,
+    "status": "Active",
+    "startDate": "2023-12-01",
+    "endDate": null,
+    "achievements": [
+      "Reduced SDK validation time by 85%",
+      "Automated testing across 50+ device configurations",
+      "Implemented continuous SDK validation pipeline",
+      "Achieved 99% API coverage testing"
+    ],
+    "challenges": [
+      "Device fragmentation handling",
+      "SDK version compatibility matrix",
+      "Automated test case generation"
+    ],
+    "learnings": [
+      "Android SDK development best practices",
+      "Device farm automation strategies",
+      "API testing methodologies"
+    ],
+    "images": [
+      "assets/images/projects/sdk-automation-1.jpg",
+      "assets/images/projects/sdk-automation-2.jpg"
+    ],
+    "demoUrl": null,
+    "githubUrl": null,
+    "metrics": {
+      "validationTimeReduction": "85%",
+      "devicesCovered": 50,
+      "apiCoverage": "99%",
+      "automationLevel": "95%"
+    }
+  },
+  {
+    "id": "mobile-app-testing-framework",
+    "title": "Cross-Platform Mobile Testing Framework",
+    "description": "Unified testing framework for both Android and iOS applications using Appium and Maestro. Supports native, hybrid, and React Native applications with comprehensive test coverage.",
+    "longDescription": "Developed a unified cross-platform mobile testing framework that supports testing of native, hybrid, and React Native applications. The framework provides a single interface for testing across both Android and iOS platforms, with advanced features like visual testing, accessibility validation, and performance monitoring.",
+    "technologies": ["Appium", "Maestro", "React Native", "XCTest", "TestNG", "Allure"],
+    "category": "Mobile Testing",
+    "featured": false,
+    "status": "Active",
+    "startDate": "2023-06-01",
+    "endDate": null,
+    "achievements": [
+      "Unified testing approach for iOS and Android",
+      "90% code reusability across platforms",
+      "Integrated visual and accessibility testing",
+      "Reduced mobile testing cycle time by 50%"
+    ],
+    "challenges": [
+      "Platform-specific behavior handling",
+      "Test synchronization across platforms",
+      "Visual testing accuracy"
+    ],
+    "learnings": [
+      "Cross-platform testing strategies",
+      "Mobile automation best practices",
+      "Visual testing implementation"
+    ],
+    "images": [
+      "assets/images/projects/mobile-framework-1.jpg",
+      "assets/images/projects/mobile-framework-2.jpg"
+    ],
+    "demoUrl": null,
+    "githubUrl": null,
+    "metrics": {
+      "codeReusability": "90%",
+      "cycleTimeReduction": "50%",
+      "platformsSupported": 2,
+      "testTypes": 5
+    }
+  },
+  {
+    "id": "api-testing-suite",
+    "title": "Comprehensive API Testing Suite",
+    "description": "Advanced API testing framework with support for REST, GraphQL, and WebSocket testing. Includes contract testing, performance validation, and security testing capabilities.",
+    "longDescription": "Created a comprehensive API testing suite that covers functional, performance, and security testing for various API types. The framework includes contract testing capabilities, automated API documentation validation, and integration with service virtualization for testing in isolation.",
+    "technologies": ["Rest Assured", "Postman", "Newman", "JMeter", "Pact", "WireMock"],
+    "category": "API Testing",
+    "featured": false,
+    "status": "Completed",
+    "startDate": "2023-03-01",
+    "endDate": "2023-11-30",
+    "achievements": [
+      "Comprehensive API test coverage across all endpoints",
+      "Automated contract testing implementation",
+      "Performance baseline establishment",
+      "Security vulnerability detection automation"
+    ],
+    "challenges": [
+      "API versioning and backward compatibility",
+      "Service dependency management",
+      "Performance testing under load"
+    ],
+    "learnings": [
+      "API testing best practices",
+      "Contract testing methodologies",
+      "Service virtualization techniques"
+    ],
+    "images": [
+      "assets/images/projects/api-testing-1.jpg",
+      "assets/images/projects/api-testing-2.jpg"
+    ],
+    "demoUrl": null,
+    "githubUrl": null,
+    "metrics": {
+      "endpointsCovered": 200,
+      "contractTests": 50,
+      "performanceBaselines": 25,
+      "securityChecks": 15
+    }
+  },
+  {
+    "id": "ci-cd-integration",
+    "title": "CI/CD Testing Pipeline Integration",
+    "description": "Seamless integration of automated testing into CI/CD pipelines using Jenkins, GitHub Actions, and AWS services. Enables continuous testing and quality gates.",
+    "longDescription": "Designed and implemented comprehensive CI/CD pipeline integration for automated testing workflows. The solution includes quality gates, parallel test execution, intelligent test selection, and detailed reporting. Successfully reduced deployment cycle time while maintaining high quality standards.",
+    "technologies": ["Jenkins", "GitHub Actions", "Docker", "AWS", "Maven", "Gradle"],
+    "category": "DevOps",
+    "featured": false,
+    "status": "Active",
+    "startDate": "2023-01-01",
+    "endDate": null,
+    "achievements": [
+      "Reduced deployment cycle time by 60%",
+      "Implemented intelligent test selection",
+      "Achieved 99.9% pipeline reliability",
+      "Automated quality gate enforcement"
+    ],
+    "challenges": [
+      "Pipeline optimization for speed and reliability",
+      "Test flakiness management",
+      "Resource allocation and scaling"
+    ],
+    "learnings": [
+      "CI/CD best practices",
+      "Pipeline as code implementation",
+      "Test optimization strategies"
+    ],
+    "images": [
+      "assets/images/projects/cicd-integration-1.jpg",
+      "assets/images/projects/cicd-integration-2.jpg"
+    ],
+    "demoUrl": null,
+    "githubUrl": null,
+    "metrics": {
+      "cycleTimeReduction": "60%",
+      "pipelineReliability": "99.9%",
+      "qualityGates": 8,
+      "parallelExecutions": 10
+    }
+  }
+]

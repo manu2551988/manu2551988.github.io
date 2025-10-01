@@ -1,0 +1,272 @@
+[
+  {
+    "id": "cybersecurity-ethical-hacking",
+    "title": "Cyber Security and Ethical Hacking Internship Program",
+    "issuer": "Edureka",
+    "issueDate": "2023-01-01",
+    "expiryDate": null,
+    "credentialId": "PS86DDHA3",
+    "verificationUrl": "https://www.edureka.co/verify-certificate",
+    "category": "Cybersecurity",
+    "skills": [
+      "Kali Linux",
+      "PKI",
+      "Software Development Life Cycle (SDLC)",
+      "Cyber Threat Intelligence (CTI)",
+      "Threat & Vulnerability Management",
+      "Cybersecurity",
+      "Identity and Access Management (IAM)",
+      "DLP",
+      "Burp Suite",
+      "Wireshark",
+      "Encryption",
+      "Ethical Hacking",
+      "Network Security"
+    ],
+    "description": "Comprehensive cybersecurity program covering ethical hacking, penetration testing, and security assessment techniques.",
+    "featured": true,
+    "image": "assets/images/certificates/cybersecurity-ethical-hacking.jpg",
+    "modules": [
+      "Operating Systems and Networking Fundamentals",
+      "Cryptography & Application Security",
+      "Cyber Security Tools",
+      "Web Application Hacking"
+    ]
+  },
+  {
+    "id": "mentoring-certificate",
+    "title": "Mentoring Certificate",
+    "issuer": "Chronus",
+    "issueDate": "2023-12-01",
+    "expiryDate": null,
+    "credentialId": "cf-79baab02-765c-4fb3-8f43-b043a8c499b0-1250404",
+    "verificationUrl": null,
+    "category": "Leadership",
+    "skills": [
+      "Mentoring",
+      "Leadership",
+      "Communication",
+      "Career Development",
+      "Knowledge Transfer"
+    ],
+    "description": "Professional mentoring certification demonstrating ability to guide and develop junior team members.",
+    "featured": true,
+    "image": "assets/images/certificates/mentoring-certificate.jpg",
+    "modules": []
+  },
+  {
+    "id": "qspiders-software-testing",
+    "title": "Software Testing Training Certificate",
+    "issuer": "QSpiders - Software Testing Training Institute",
+    "issueDate": "2020-01-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Software Testing",
+    "skills": [
+      "Python (Programming Language)",
+      "Core Java",
+      "Software Development Life Cycle (SDLC)",
+      "Selenium",
+      "Manual Testing"
+    ],
+    "description": "Comprehensive software testing training covering manual testing, automation, and programming fundamentals.",
+    "featured": true,
+    "image": "assets/images/certificates/qspiders-testing.jpg",
+    "modules": []
+  },
+  {
+    "id": "aws-awesome-day",
+    "title": "AWS Awesome Day Conference",
+    "issuer": "Amazon Web Services",
+    "issueDate": "2022-06-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Cloud Computing",
+    "skills": [
+      "AWS",
+      "Cloud Computing",
+      "Amazon S3",
+      "Amazon EC2",
+      "AWS Lambda",
+      "Cloud Architecture"
+    ],
+    "description": "Attended AWS Awesome Day conference to learn fundamental concepts about Amazon Web Services and cloud computing.",
+    "featured": false,
+    "image": "assets/images/certificates/aws-awesome-day.jpg",
+    "modules": []
+  },
+  {
+    "id": "amazon-first-aid",
+    "title": "Superhero Save Lives - PEER Basic First Aid",
+    "issuer": "Amazon",
+    "issueDate": "2022-03-01",
+    "expiryDate": "2024-03-01",
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Safety",
+    "skills": [
+      "First Aid",
+      "Emergency Response",
+      "CPR",
+      "Safety Protocols",
+      "Emergency Management"
+    ],
+    "description": "Basic first aid certification for workplace safety and emergency response.",
+    "featured": false,
+    "image": "assets/images/certificates/amazon-first-aid.jpg",
+    "modules": []
+  },
+  {
+    "id": "selenium-appium-webinar",
+    "title": "Selenium/Appium Webinar",
+    "issuer": "TestProject",
+    "issueDate": "2021-08-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Automation Testing",
+    "skills": [
+      "Selenium WebDriver",
+      "Appium",
+      "Mobile Automation",
+      "Web Automation",
+      "Test Automation"
+    ],
+    "description": "Advanced webinar on Selenium and Appium automation frameworks for web and mobile testing.",
+    "featured": false,
+    "image": "assets/images/certificates/selenium-appium-webinar.jpg",
+    "modules": []
+  },
+  {
+    "id": "udemy-software-testing",
+    "title": "Software Testing Course",
+    "issuer": "Udemy",
+    "issueDate": "2020-06-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Software Testing",
+    "skills": [
+      "Software Testing",
+      "Test Planning",
+      "Test Design",
+      "Defect Management",
+      "Testing Methodologies"
+    ],
+    "description": "Comprehensive software testing course covering testing fundamentals, methodologies, and best practices.",
+    "featured": false,
+    "image": "assets/images/certificates/udemy-software-testing.jpg",
+    "modules": []
+  },
+  {
+    "id": "udemy-manual-testing-jira",
+    "title": "Manual Testing + Jira Tool",
+    "issuer": "Udemy",
+    "issueDate": "2020-05-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Manual Testing",
+    "skills": [
+      "Manual Testing",
+      "Jira",
+      "Test Case Design",
+      "Bug Reporting",
+      "Test Management"
+    ],
+    "description": "Manual testing course with focus on Jira tool for test management and defect tracking.",
+    "featured": false,
+    "image": "assets/images/certificates/udemy-manual-testing-jira.jpg",
+    "modules": []
+  },
+  {
+    "id": "edureka-module-four",
+    "title": "Module Four: Web Application Hacking",
+    "issuer": "Edureka",
+    "issueDate": "2022-12-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Cybersecurity",
+    "skills": [
+      "Web Application Security",
+      "Penetration Testing",
+      "OWASP",
+      "SQL Injection",
+      "Cross-Site Scripting (XSS)",
+      "Security Testing"
+    ],
+    "description": "Advanced module on web application security testing and ethical hacking techniques.",
+    "featured": false,
+    "image": "assets/images/certificates/edureka-module-four.jpg",
+    "modules": []
+  },
+  {
+    "id": "edureka-module-three",
+    "title": "Module Three: Cyber Security Tools",
+    "issuer": "Edureka",
+    "issueDate": "2022-11-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Cybersecurity",
+    "skills": [
+      "Cybersecurity Tools",
+      "Nmap",
+      "Metasploit",
+      "Wireshark",
+      "Burp Suite",
+      "Security Assessment"
+    ],
+    "description": "Comprehensive training on cybersecurity tools and their practical applications in security testing.",
+    "featured": false,
+    "image": "assets/images/certificates/edureka-module-three.jpg",
+    "modules": []
+  },
+  {
+    "id": "edureka-module-two",
+    "title": "Module Two: Cryptography & Application Security",
+    "issuer": "Edureka",
+    "issueDate": "2022-10-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Cybersecurity",
+    "skills": [
+      "Cryptography",
+      "Application Security",
+      "Encryption",
+      "Digital Signatures",
+      "PKI",
+      "Secure Coding"
+    ],
+    "description": "In-depth study of cryptography principles and application security best practices.",
+    "featured": false,
+    "image": "assets/images/certificates/edureka-module-two.jpg",
+    "modules": []
+  },
+  {
+    "id": "edureka-module-one",
+    "title": "Module One: Operating Systems and Networking Fundamentals",
+    "issuer": "Edureka",
+    "issueDate": "2022-09-01",
+    "expiryDate": null,
+    "credentialId": null,
+    "verificationUrl": null,
+    "category": "Cybersecurity",
+    "skills": [
+      "Operating Systems",
+      "Networking Fundamentals",
+      "TCP/IP",
+      "Network Protocols",
+      "System Administration",
+      "Network Security"
+    ],
+    "description": "Foundation course covering operating systems and networking concepts essential for cybersecurity.",
+    "featured": false,
+    "image": "assets/images/certificates/edureka-module-one.jpg",
+    "modules": []
+  }
+]

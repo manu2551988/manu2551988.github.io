@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates - Manu Kakkar | Professional Certifications</title>
+    <meta name="description" content="View Manu Kakkar's professional certifications in cybersecurity, software testing, automation, and quality assurance from leading institutions.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'amazon-orange': '#FF9900',
+              'amazon-blue': '#232F3E',
+              'accent-blue': '#146EB4'
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">Manu Kakkar</span>
+                    <span class="logo-subtitle">QAE @ Amazon</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="certificates.html" class="nav-link active">Certificates</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="#career-chat" class="nav-link chat-link">Career Chat</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <nav class="breadcrumb">
+                <span class="breadcrumb-item"><a href="../index.html">Home</a></span>
+                <span class="breadcrumb-item active">Certificates</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Certificates Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Professional Certifications</h1>
+            <p class="page-description">
+                My commitment to continuous learning and professional development through 
+                certifications in cybersecurity, software testing, automation, and quality assurance.
+            </p>
+        </div>
+    </section>
+
+    <!-- Certificates Stats -->
+    <section class="certificates-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-certificates">12+</div>
+                    <div class="stat-label">Total Certificates</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="skill-areas">6</div>
+                    <div class="stat-label">Skill Areas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="recent-year">2023</div>
+                    <div class="stat-label">Most Recent</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="institutions">8+</div>
+                    <div class="stat-label">Institutions</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filter -->
+    <section class="search-filter-section">
+        <div class="container">
+            <div class="search-filter-container">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="certificate-search" class="search-input" placeholder="Search certificates...">
+                </div>
+                <div class="filter-dropdown">
+                    <button class="filter-btn" id="category-filter-btn">
+                        <span>All Categories</span>
+                        <span>▼</span>
+                    </button>
+                    <div class="filter-menu" id="category-filter-menu">
+                        <div class="filter-option active" data-category="all">All Categories</div>
+                        <div class="filter-option" data-category="Cybersecurity">Cybersecurity</div>
+                        <div class="filter-option" data-category="Software Testing">Software Testing</div>
+                        <div class="filter-option" data-category="Automation Testing">Automation Testing</div>
+                        <div class="filter-option" data-category="Leadership">Leadership</div>
+                        <div class="filter-option" data-category="Cloud Computing">Cloud Computing</div>
+                        <div class="filter-option" data-category="Safety">Safety</div>
+                    </div>
+                </div>
+                <div class="filter-dropdown">
+                    <button class="filter-btn" id="issuer-filter-btn">
+                        <span>All Issuers</span>
+                        <span>▼</span>
+                    </button>
+                    <div class="filter-menu" id="issuer-filter-menu">
+                        <div class="filter-option active" data-issuer="all">All Issuers</div>
+                        <div class="filter-option" data-issuer="Edureka">Edureka</div>
+                        <div class="filter-option" data-issuer="Amazon">Amazon</div>
+                        <div class="filter-option" data-issuer="Udemy">Udemy</div>
+                        <div class="filter-option" data-issuer="QSpiders">QSpiders</div>
+                        <div class="filter-option" data-issuer="Chronus">Chronus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Certificates -->
+    <section class="featured-certificates-section">
+        <div class="container">
+            <h2 class="section-title">Featured Certifications</h2>
+            <div class="featured-certificates-grid" id="featured-certificates-grid">
+                <!-- Featured certificates will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- All Certificates -->
+    <section class="certificates-section">
+        <div class="container">
+            <h2 class="section-title">All Certifications</h2>
+            <div class="certificates-grid" id="certificates-grid">
+                <!-- Certificates will be loaded here -->
+            </div>
+            
+            <!-- No Results Message -->
+            <div class="no-results" id="no-results" style="display: none;">
+                <div class="no-results-content">
+                    <h3>No certificates found</h3>
+                    <p>Try adjusting your search criteria or filters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificate-modal" class="modal">
+        <div class="modal-content certificate-modal-content">
+            <span class="close">&times;</span>
+            <div class="certificate-modal-body" id="certificate-modal-body">
+                <!-- Certificate details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Manu Kakkar</h4>
+                    <p>Quality Assurance Engineer @ Amazon</p>
+                    <p>Specializing in automation, SDK testing, and performance optimization</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/manu2551988" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/manu2551988" target="_blank">GitHub</a>
+                        <a href="mailto:manu2551988@gmail.com">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Manu Kakkar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Career Chat Modal -->
+    <div id="career-chat-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h3>Career Chat with Manu</h3>
+                    <p>Ask me about QA career paths, Amazon culture, or testing best practices!</p>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            Hi! I'm Manu. Feel free to ask me about QA careers, testing strategies, or working at Amazon. How can I help you today?
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chat-input" placeholder="Type your question...">
+                    <button id="send-chat">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/certificates.js"></script>
+</body>
+</html>

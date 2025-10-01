@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Manu Kakkar | QA Insights & Best Practices</title>
+    <meta name="description" content="Read Manu Kakkar's insights on QA automation, testing best practices, performance optimization, and career advice in software quality assurance.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'amazon-orange': '#FF9900',
+              'amazon-blue': '#232F3E',
+              'accent-blue': '#146EB4'
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">Manu Kakkar</span>
+                    <span class="logo-subtitle">QAE @ Amazon</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="#career-chat" class="nav-link chat-link">Career Chat</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <nav class="breadcrumb">
+                <span class="breadcrumb-item"><a href="../index.html">Home</a></span>
+                <span class="breadcrumb-item active">Blog</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Blog Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">QA Insights & Best Practices</h1>
+            <p class="page-description">
+                Sharing knowledge about quality assurance, automation strategies, performance testing, 
+                and career insights from my experience at Amazon and the broader QA community.
+            </p>
+        </div>
+    </section>
+
+    <!-- Search and Filter -->
+    <section class="search-filter-section">
+        <div class="container">
+            <div class="filters-section">
+                <div class="filters-row">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="blog-search" class="search-input" placeholder="Search blog posts...">
+                    </div>
+                    <div class="filter-dropdown">
+                        <button class="filter-btn" id="category-filter-btn">
+                            <span>All Categories</span>
+                            <span>▼</span>
+                        </button>
+                        <div class="filter-menu" id="category-filter-menu">
+                            <div class="filter-option active" data-category="all">All Categories</div>
+                            <div class="filter-option" data-category="Automation">Automation</div>
+                            <div class="filter-option" data-category="Performance Testing">Performance Testing</div>
+                            <div class="filter-option" data-category="Culture">Culture</div>
+                            <div class="filter-option" data-category="API Testing">API Testing</div>
+                            <div class="filter-option" data-category="Mobile Testing">Mobile Testing</div>
+                        </div>
+                    </div>
+                    <div class="filter-dropdown">
+                        <button class="filter-btn" id="sort-filter-btn">
+                            <span>Latest First</span>
+                            <span>▼</span>
+                        </button>
+                        <div class="filter-menu" id="sort-filter-menu">
+                            <div class="filter-option active" data-sort="latest">Latest First</div>
+                            <div class="filter-option" data-sort="oldest">Oldest First</div>
+                            <div class="filter-option" data-sort="popular">Most Popular</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="featured-posts-section">
+        <div class="container">
+            <h2 class="section-title">Featured Posts</h2>
+            <div class="featured-posts-grid" id="featured-posts-grid">
+                <!-- Featured posts will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- All Posts -->
+    <section class="blog-posts-section">
+        <div class="container">
+            <h2 class="section-title">All Posts</h2>
+            <div class="blog-posts-grid" id="blog-posts-grid">
+                <!-- Blog posts will be loaded here -->
+            </div>
+            
+            <!-- No Results Message -->
+            <div class="no-results" id="no-results" style="display: none;">
+                <div class="no-results-content">
+                    <h3>No blog posts found</h3>
+                    <p>Try adjusting your search criteria or filters.</p>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Modal -->
+    <div id="blog-modal" class="modal">
+        <div class="modal-content blog-modal-content">
+            <span class="close">&times;</span>
+            <div class="blog-modal-body" id="blog-modal-body">
+                <!-- Blog post content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Manu Kakkar</h4>
+                    <p>Quality Assurance Engineer @ Amazon</p>
+                    <p>Specializing in automation, SDK testing, and performance optimization</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/manu2551988" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/manu2551988" target="_blank">GitHub</a>
+                        <a href="mailto:manu2551988@gmail.com">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Manu Kakkar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Career Chat Modal -->
+    <div id="career-chat-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h3>Career Chat with Manu</h3>
+                    <p>Ask me about QA career paths, Amazon culture, or testing best practices!</p>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            Hi! I'm Manu. Feel free to ask me about QA careers, testing strategies, or working at Amazon. How can I help you today?
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chat-input" placeholder="Type your question...">
+                    <button id="send-chat">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/blog.js"></script>
+</body>
+</html>
